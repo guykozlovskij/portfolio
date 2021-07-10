@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "HKGrotesk Medium", trebuchet, Arial, sans-serif;
+  background-color: rgba(39,47,55,255);
+  color: white;
+}
+
+.title-card {
+  font-weight: normal;
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p{
+    font-size: 50px;
+    text-decoration: none;
+  }
+}
+
+@import
+'nav'

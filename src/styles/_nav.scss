@@ -1,0 +1,24 @@
+.navigation-bar {
+
+  font-size: large;
+  color: rgba(39,47,55,255);
+  letter-spacing: 1px;
+  display: flex;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-color: white;
+  .home{
+    margin-right: auto;
+    padding-left: 15px;
+  }
+  ul {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  li {
+    padding-right: 15px;
+    list-style-type: none;
+  }
+}

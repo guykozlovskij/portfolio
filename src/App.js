@@ -1,7 +1,14 @@
 import React from 'react'
+import Home from './components/sections/Home'
+import Nav from './components/Nav'
 
 function App() {
-  return <h1>Hello World</h1>
+  return (
+    <>
+      <Nav />
+      <Home />
+    </>
+  )
 }
 
 export default App
