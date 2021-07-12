@@ -6,21 +6,33 @@
 
 body {
   font-family: "HKGrotesk Medium", trebuchet, Arial, sans-serif;
-  background-color: rgba(39,47,55,255);
-  color: white;
+
 }
 
 .title-card {
-  font-weight: normal;
-  margin-top: 5em;
+  background-image: url("../img/grid.png");
+  background-attachment: fixed;
+  background-position: center;
+  color: whitesmoke;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  p{
-    font-size: 50px;
-    text-decoration: none;
+  justify-content: center;
+  letter-spacing: 2px;
+  .name, .surname {
+    font-size: 80px;
+    font-size: 9vw;
+  }
+  .position{
+    font-size: 30px;
   }
 }
 
 @import
-'nav'
+'nav',
+'about',
+'projects',
+'experience',
+'contact',
+'scroll-images'
