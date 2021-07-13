@@ -1,17 +1,90 @@
 .projects {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   color: #293339;
   height: fit-content;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   background-color: white;
-  .project-img{
+  .project-img {
     max-width: 900px;
   }
-  img{
+  img {
     width: 100%;
+  }
+  .project-section {
+    h1 {
+      letter-spacing: 1px;
+      font-size: 60px;
+      padding-bottom: 20px;
+    }
+    h2 {
+      padding-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      max-width: 500px;
+      padding-bottom: 20px;
+    }
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .about-project {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 35px;
+  }
+}
+
+.project-devicons {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  .project-devicon {
+    padding-right: 10px;
+  }
+}
+
+.project-links{
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  .button{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  i{
+    padding-right: 10px;
+  }
+  a{
+    display: flex;
+    font-size: 20px;
+    width: 210px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:#293339;
+    border: 1px solid #293339;
+   
+  }
+  a:hover{
+    background-color: #293339;
+    border-color: white;
+    color: white;
   }
 }
