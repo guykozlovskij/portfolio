@@ -1,6 +1,9 @@
+.project-main{
+  padding-top: 120px;
+}
+
 .projects {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 120px;
   color: #293339;
   height: fit-content;
   display: flex;
@@ -26,7 +29,6 @@
     p {
       font-size: 18px;
       max-width: 500px;
-      padding-bottom: 20px;
     }
     align-items: center;
     justify-content: center;
@@ -41,7 +43,7 @@
     flex-direction: column;
     padding-top: 20px;
     padding-left: 25px;
-    padding-right: 35px;
+    padding-right: 25px;
   }
 }
 
@@ -56,16 +58,18 @@
 }
 
 .project-links{
-  height: 160px;
+  height: 150px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 
   .button{
     margin-right: 15px;
     margin-left: 15px;
+
   }
   i{
     padding-right: 10px;
