@@ -1,4 +1,6 @@
 import React from 'react'
+import About from './About'
+import Projects from './Projects'
 
 function Home() {
   return (
@@ -8,13 +10,9 @@ function Home() {
         <p className="surname">Kozlovskij</p>
         <p className="position">Full-Stack Developer</p>
       </div>
-      <div className="about">
-        <h1>About Here</h1>
-      </div>
+      <About />
       <div className="scroll-img-1"></div>
-      <div className="projects">
-        <h1>Projects Here</h1>
-      </div>
+      <Projects />
       <div className="scroll-img-2"></div>
       <div className="experience">
         <h1>Experience Here</h1>

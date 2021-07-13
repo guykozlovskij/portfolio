@@ -1,9 +1,91 @@
 .about {
-  color: white;
-  height: 85vh;
+  color: #293339;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: wheat;
+  background-color: white;
+}
+
+.about-and-icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.devicons{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 50px;
+  margin-right: 25px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 600px;
+}
+
+.devicon-div{
+  border: 1px solid #293339;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  span {
+    padding-top: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+}
+
+.about-me{
+  h1{
+    letter-spacing: 1px;
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+  max-width: 500px;
+  margin-right: 50px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  text-justify: inter-word;
+  p {
+    font-size: 18px;
+  }
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+
+.skill-category {
+  width: 320px;
+  height: 100px;
+  padding: 10px;
+  margin-left: 15px;
+
+}
+
+@media (max-width: 500px) {
+  .devicons {
+    display: none; 
+  }
+  .about{
+    margin-top: 30px;
+  }
+  .about-me{
+    margin-bottom: 30px;
+  }
 }

@@ -5,7 +5,7 @@ function Nav() {
         <p>Guy Kozlovskij</p>
       </div>
       <ul>
-        <li>about</li>
+        <li><a href="#about">about</a></li>
         <li>projects</li>
         <li>experience</li>
         <li>contact</li>

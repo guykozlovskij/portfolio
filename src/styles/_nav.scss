@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   font-size: large;
-  color: rgba(39,47,55,255);
+  color: #293339;
   letter-spacing: 1px;
   display: flex;
   padding-top: 14px;
@@ -22,5 +22,9 @@
   li {
     padding-right: 15px;
     list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+    color: #293339;
   }
 }

@@ -1,9 +1,17 @@
 .projects {
-  color: white;
-  height: 90vh;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #293339;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: yellowgreen;
+  background-color: white;
+  .project-img{
+    max-width: 900px;
+  }
+  img{
+    width: 100%;
+  }
 }
