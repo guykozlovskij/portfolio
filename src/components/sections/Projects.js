@@ -6,7 +6,7 @@ import img4 from '../../img/cosmos-mac.png'
 function Projects() {
   return (
     <section className="project-main">
-      <div className="projects">
+      <div id="projects" className="projects">
         <section className="project-section">
           <div className="project-img">
             <img src={img1} alt="project-image" />
@@ -59,7 +59,7 @@ function Projects() {
           </section>
         </section>
       </div>
-      {/* <div className="scroll-img-2"></div> */}
+      <div className="scroll-img-2"></div>
       <div className="projects">
         <section className="project-section">
           <div className="project-img">
@@ -111,7 +111,7 @@ function Projects() {
           </section>
         </section>
       </div>
-      {/* <div className="scroll-img-2"></div> */}
+      <div className="scroll-img-2"></div>
       <div className="projects">
         <section className="project-section">
           <div className="project-img">
@@ -152,7 +152,7 @@ function Projects() {
           </section>
         </section>
       </div>
-      {/* <div className="scroll-img-2"></div> */}
+      <div className="scroll-img-2"></div>
       <div className="projects">
         <section className="project-section">
           <div className="project-img">

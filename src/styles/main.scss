@@ -24,12 +24,24 @@ body {
   align-items: center;
   justify-content: center;
   letter-spacing: 2px;
+  
   .name, .surname {
     font-size: 80px;
     font-size: 9vw;
   }
   .position{
     font-size: 30px;
+  }
+}
+
+@media (max-width: 800px){
+  .title-card {
+    .name, .surname {
+      font-size: 50px;
+    }
+    .position{
+      font-size: 30px;
+    }
   }
 }
 

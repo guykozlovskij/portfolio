@@ -1,9 +1,6 @@
-.project-main{
-  padding-top: 120px;
-}
-
 .projects {
-  padding-bottom: 120px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   color: #293339;
   height: fit-content;
   display: flex;
@@ -21,14 +18,15 @@
     h1 {
       letter-spacing: 1px;
       font-size: 60px;
-      padding-bottom: 20px;
+      padding-bottom: 25px;
     }
     h2 {
-      padding-bottom: 20px;
+      padding-bottom: 25px;
     }
     p {
       font-size: 18px;
       max-width: 500px;
+      padding-bottom : 25px;
     }
     align-items: center;
     justify-content: center;
@@ -50,7 +48,7 @@
 .project-devicons {
   display: flex;
   flex-direction: row;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   font-size: 1.5rem;
   .project-devicon {
     padding-right: 10px;
@@ -58,18 +56,15 @@
 }
 
 .project-links{
-  height: 150px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
 
   .button{
-    margin-right: 15px;
-    margin-left: 15px;
-
+    margin-left: 20px;
+    margin-right: 20px;
   }
   i{
     padding-right: 10px;
@@ -90,5 +85,11 @@
     background-color: #293339;
     border-color: white;
     color: white;
+  }
+}
+
+@media (max-width: 800px) {
+  .project-links{
+    height: 150px;
   }
 }

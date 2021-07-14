@@ -6,10 +6,11 @@
   color: #293339;
   letter-spacing: 1px;
   display: flex;
+  align-items: center;
   padding-top: 14px;
   padding-bottom: 14px;
   background-color: white;
-  .home{
+  .home {
     margin-right: auto;
     padding-left: 15px;
   }
@@ -17,14 +18,23 @@
     margin-left: auto;
     display: flex;
     flex-direction: row;
-    
   }
   li {
     padding-right: 15px;
     list-style-type: none;
   }
-  a{
+  a {
     text-decoration: none;
     color: #293339;
+    
+  }
+  a:hover {
+      color: #377ba5;
+    }
+}
+
+@media (max-width: 800px) {
+  .navigation-bar {
+    font-size: small;
   }
 }
