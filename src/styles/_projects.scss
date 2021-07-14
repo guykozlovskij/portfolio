@@ -5,12 +5,15 @@
   height: fit-content;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
   background-color: white;
   .project-img {
     max-width: 900px;
+
   }
+
+
+
   img {
     width: 100%;
   }

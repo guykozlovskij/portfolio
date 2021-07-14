@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './About'
+import Contact from './Contact'
 import Experience from './Experience'
 import Projects from './Projects'
 
@@ -10,6 +11,7 @@ function Home() {
         <p className="name">Guy</p>
         <p className="surname">Kozlovskij</p>
         <p className="position">Full-Stack Developer</p>
+        <i className="fas fa-arrow-down"></i>
       </div>
       <About />
       <div className="scroll-img-1"><p>Projects</p></div>
@@ -17,9 +19,7 @@ function Home() {
       <div className="scroll-img-1"></div>
       <Experience />
       <div className="scroll-img-3"></div>
-      <div className="contact">
-        <h1>Contact Here</h1>
-      </div>
+      <Contact />
     </>
   )
 }

@@ -7,10 +7,6 @@
 
 html {
   scroll-behavior: smooth;
- }
-
-body {
-  
 }
 
 .title-card {
@@ -24,31 +20,31 @@ body {
   align-items: center;
   justify-content: center;
   letter-spacing: 2px;
-  
-  .name, .surname {
+
+  .name,
+  .surname {
     font-size: 80px;
     font-size: 9vw;
   }
-  .position{
+  .position {
     font-size: 30px;
+    padding-bottom: 20px;
+  }
+  i {
+    font-size: 3rem;
   }
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .title-card {
-    .name, .surname {
+    .name,
+    .surname {
       font-size: 50px;
     }
-    .position{
+    .position {
       font-size: 30px;
     }
   }
 }
 
-@import
-'nav',
-'about',
-'projects',
-'experience',
-'contact',
-'scroll-images'
+@import "nav", "about", "projects", "experience", "contact", "scroll-images";

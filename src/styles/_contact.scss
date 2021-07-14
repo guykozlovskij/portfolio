@@ -1,6 +1,6 @@
 .contact {
-  color: white;
-  height: 100vh;
+  color: whitesmoke;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,4 +8,43 @@
   background-image: url("../img/grid.png");
   background-attachment: fixed;
   background-position: center;
+  p{
+    letter-spacing: 2px;
+    font-size: 70px;
+  }
+  img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    width: 170px;
+    border: 4px solid whitesmoke
+  }
+  i{
+    padding-right: 5px;
+  }
+  a{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  a:hover{
+    color: #377ba5;
+  }
+  .contact-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 500px;
+    height: 80px;
+  }
+  @media (max-width: 800px) {
+    p{
+      font-size: 50px;
+    }
+  }
+  
 }
+

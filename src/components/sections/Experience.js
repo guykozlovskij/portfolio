@@ -11,17 +11,21 @@ function Experience() {
           <h1>General Assembly</h1>
           <h2>Software Engineering Immersive Student</h2>
           <h3>Mar 2021 - July 2021</h3>
-          <p>Full-time 13-week immersive coding bootcamp for learning in-demand languages, frameworks and libraries, consisting of daily standups, lectures, workshops, and homework.</p>
+          <p>Full-time 13-week immersive coding bootcamp for learning in-demand languages, frameworks and libraries, consisting of daily standups, lectures, workshops, and homework.
+            <br/><br/>
+            This course has given me the opportunity to work on various coding tasks and projects with my classmates, teaching me communication and teamwork, while supplying me with valuable technical knowledge in a fun, engaging and collaborative environment.
+
+          </p>
         </div>
       </div>
-      <div id="experience-scroll-image" className="scroll-img-2"></div>
+      {/* <div id="experience-scroll-image" className="scroll-img-2"></div> */}
       <div className="experience-content">
         <img className="logo" id="hfs-logo" src={hfsLogo} alt="homes for students logo" />
         <div className="text">
           <h1>Homes for Students</h1>
           <h2>Senior Customer Service Advisor</h2>
           <h3>Nov 2020 - Mar 2021</h3>
-          <p>Leading the team and driving performance of the properties KPIs whilst delivering an outstanding student experience across multiple sites.
+          <p>Homes for Students is one of UK&apos;s biggest student accommodation providers. As a Senior CSA I was responsible for overseeing the management of multiple student accommodation buildings. 
           </p>
           <div className="separator"></div>
           <h2>Customer Service Advisor</h2>
@@ -29,7 +33,7 @@ function Experience() {
           <p>Managing day to day responsibilities of a student accommodation such as sales, management of the property, viewings, debt collection, health and safety compliance, social media presence and student events.</p>
         </div>
       </div>
-      <div id="experience-scroll-image" className="scroll-img-2"></div>
+      {/* <div id="experience-scroll-image" className="scroll-img-2"></div> */}
       <div className="experience-content">
         <img className="logo" src={piLogo} alt="premier inn logo" />
         <div className="text">
