@@ -1,6 +1,6 @@
 .projects {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   color: #293339;
   height: fit-content;
   display: flex;
@@ -89,6 +89,10 @@
 }
 
 @media (max-width: 800px) {
+  .project-img {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .project-links{
     height: 150px;
   }
