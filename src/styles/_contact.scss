@@ -13,7 +13,7 @@
     font-size: 70px;
   }
   img{
-    margin-top: 40px;
+    margin-top: 65px;
     margin-bottom: 40px;
     border-radius: 50%;
     width: 170px;
@@ -28,6 +28,7 @@
     font-size: 20px;
     text-decoration: none;
     color: whitesmoke;
+    padding-top: 15px;
   }
   a:hover{
     color: #377ba5;
@@ -38,7 +39,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 500px;
-    height: 80px;
+    
+
   }
   @media (max-width: 800px) {
     p{
