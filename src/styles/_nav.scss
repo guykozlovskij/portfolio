@@ -26,22 +26,34 @@
   a {
     text-decoration: none;
     color: #293339;
-    
   }
   a:hover {
-      color: #377ba5;
-    }
+    color: #377ba5;
+  }
+}
+
+.short-name {
+  display: none;
 }
 
 @media (max-width: 800px) {
   .navigation-bar {
     font-size: small;
   }
-
 }
 
-@media (max-width: 400px) {
-  .home span {
-    display: none;
-  }
+@media (max-width: 500px) {
+  .short-name { display: inline-block; }
+  .full-name { display: none; }
 }
+
+@media (max-width: 380px) {
+  .short-name { display: none; }
+  .full-name { display: none; }
+}
+
+// @media (max-width: 330px) {
+//   .navigation-bar {
+//     font-size: x-small;
+//   }
+// }
