@@ -2,6 +2,7 @@ import React from 'react'
 import About from './About'
 import Contact from './Contact'
 import Experience from './Experience'
+import Interests from './Interests'
 import Projects from './Projects'
 
 function Home() {
@@ -14,11 +15,13 @@ function Home() {
         <i className="fas fa-arrow-down"></i>
       </div>
       <About />
-      <div className="scroll-img-1"><p>Projects</p></div>
+      <div className="scroll-img-1">
+      </div>
       <Projects />
       <div className="scroll-img-1"></div>
       <Experience />
-      <div className="scroll-img-3"></div>
+      <div className="scroll-img-1"></div>
+      <Interests />
       <Contact />
     </>
   )
