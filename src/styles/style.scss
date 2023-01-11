@@ -13,7 +13,7 @@ html {
 }
 
 .title-card {
-  background-image: url("src/img/grid.png");
+  background-image: url("/src/img/grid.png");
   background-attachment: fixed;
   background-position: center;
   color: whitesmoke;
@@ -97,19 +97,27 @@ html {
 }
 
 @media (max-width: 500px) {
-  .short-name { display: inline-block; }
-  .full-name { display: none; }
+  .short-name {
+    display: inline-block;
+  }
+  .full-name {
+    display: none;
+  }
 }
 
 @media (max-width: 380px) {
-  .short-name { display: none; }
-  .full-name { display: none; }
+  .short-name {
+    display: none;
+  }
+  .full-name {
+    display: none;
+  }
 }
 
 //* Scroll Images
 
 .scroll-img-1 {
-  background-image: url("src/img/grid.png");
+  background-image: url("/src/img/grid.png");
   background-position: center;
   background-attachment: fixed;
   width: 100%;
@@ -120,7 +128,7 @@ html {
 }
 
 .scroll-img-2 {
-  background-image: url("src/img/grid-bw.png");
+  background-image: url("/src/img/grid-bw.png");
   background-position: center;
   background-attachment: fixed;
   width: 100%;
@@ -150,7 +158,7 @@ html {
   background-color: white;
 }
 
-.about-and-icons{
+.about-and-icons {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -158,7 +166,7 @@ html {
   justify-content: center;
 }
 
-.devicons{
+.devicons {
   font-size: 2rem;
   display: flex;
   flex-direction: row;
@@ -170,7 +178,7 @@ html {
   padding-right: 20px;
 }
 
-.devicon-div{
+.devicon-div {
   border: 1px solid #293339;
   margin: 5px;
   width: 100px;
@@ -186,8 +194,8 @@ html {
   }
 }
 
-.about-me{
-  h1{
+.about-me {
+  h1 {
     letter-spacing: 1px;
     font-size: 60px;
     padding-top: 25px;
@@ -220,14 +228,13 @@ html {
 .skill-category {
   width: 320px;
   height: 100px;
-  h2{
+  h2 {
     padding-bottom: 5px;
   }
-
 }
 
 @media (max-width: 800px) {
-  .devicons{
+  .devicons {
     font-size: 1rem;
     display: flex;
     flex-direction: row;
@@ -235,7 +242,7 @@ html {
     align-items: center;
     max-width: 600px;
   }
-  .devicon-div{
+  .devicon-div {
     border: 1px solid #293339;
     margin: 5px;
     width: 70px;
@@ -261,11 +268,10 @@ html {
   background-color: white;
   .project-img {
     max-width: 900px;
-
   }
 
-  .projects-title{
-    h1{
+  .projects-title {
+    h1 {
       letter-spacing: 1px;
       font-size: 60px;
       padding-top: 25px;
@@ -289,7 +295,7 @@ html {
       line-height: $lineheight;
       font-size: 18px;
       max-width: 500px;
-      padding-bottom : 25px;
+      padding-bottom: 25px;
     }
     align-items: center;
     justify-content: center;
@@ -318,21 +324,21 @@ html {
   }
 }
 
-.project-links{
+.project-links {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
-  .button{
+  .button {
     margin-left: 20px;
     margin-right: 20px;
   }
-  i{
+  i {
     padding-right: 10px;
   }
-  a{
+  a {
     display: flex;
     font-size: 20px;
     width: 210px;
@@ -340,11 +346,10 @@ html {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color:#293339;
+    color: #293339;
     border: 1px solid #293339;
-   
   }
-  a:hover{
+  a:hover {
     background-color: #293339;
     border-color: white;
     color: white;
@@ -356,7 +361,7 @@ html {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .project-links{
+  .project-links {
     height: 150px;
   }
 }
@@ -379,7 +384,6 @@ html {
     padding-right: 15px;
   }
 
-
   .experience-content {
     display: flex;
     flex-direction: row;
@@ -391,8 +395,8 @@ html {
     .text {
       padding-left: 25px;
       padding-right: 25px;
-      h1{
-        padding-top:  25px;
+      h1 {
+        padding-top: 25px;
       }
       h1,
       h2 {
@@ -404,38 +408,37 @@ html {
       }
       p {
         font-size: 18px;
-    
+
         line-height: $lineheight;
         text-align: justify;
         max-width: 500px;
-        a{
+        a {
           text-decoration: none;
-          color: rgb(45,100,188);
+          color: rgb(45, 100, 188);
         }
       }
-      .separator{
+      .separator {
         padding: 20px;
       }
-
     }
   }
 }
 
 @media (max-width: 800px) {
-  .experience{
-    .experience-content{
+  .experience {
+    .experience-content {
       padding-top: 50px;
       padding-bottom: 50px;
       padding-bottom: 0px;
     }
   }
-  #hfs-logo{
+  #hfs-logo {
     margin-top: -40px;
     margin-bottom: -30px;
   }
 }
 
-//* Interests 
+//* Interests
 
 .interests {
   padding-top: 75px;
@@ -455,7 +458,7 @@ html {
   }
 }
 
-.wrap{
+.wrap {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -471,7 +474,7 @@ html {
   flex-direction: column;
   text-align: justify;
   text-justify: inter-word;
-  .interest-title{
+  .interest-title {
     display: flex;
     flex-direction: row;
     padding-bottom: 10px;
@@ -479,7 +482,8 @@ html {
   i {
     padding-right: 10px;
   }
-  h2, i {
+  h2,
+  i {
     letter-spacing: 1px;
     font-size: 35px;
   }
@@ -498,24 +502,24 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("src/img/grid.png");
+  background-image: url("/src/img/grid.png");
   background-attachment: fixed;
   background-position: center;
-  p{
+  p {
     letter-spacing: 2px;
     font-size: 70px;
   }
-  img{
+  img {
     margin-top: 65px;
     margin-bottom: 40px;
     border-radius: 50%;
     width: 170px;
-    border: 4px solid whitesmoke
+    border: 4px solid whitesmoke;
   }
-  i{
+  i {
     padding-right: 5px;
   }
-  a{
+  a {
     padding-left: 25px;
     padding-right: 25px;
     font-size: 20px;
@@ -523,23 +527,19 @@ html {
     color: whitesmoke;
     padding-top: 15px;
   }
-  a:hover{
+  a:hover {
     color: #377ba5;
   }
-  .contact-links{
+  .contact-links {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 500px;
-    
-
   }
   @media (max-width: 800px) {
-    p{
+    p {
       font-size: 50px;
     }
   }
-  
 }
-
