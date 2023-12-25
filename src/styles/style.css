@@ -36,7 +36,7 @@ html {
 
 @media (max-width: 800px) {
   .title-card .name,
-.title-card .surname {
+  .title-card .surname {
     font-size: 50px;
   }
   .title-card .position {
@@ -134,7 +134,6 @@ html {
   padding-top: 70px;
   padding-bottom: 70px;
   color: #293339;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
@@ -244,7 +243,6 @@ html {
   padding-top: 90px;
   padding-bottom: 90px;
   color: #293339;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
@@ -347,7 +345,6 @@ html {
 }
 .experience {
   color: #293339;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
@@ -416,7 +413,6 @@ html {
   padding-top: 75px;
   padding-bottom: 30px;
   color: #293339;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
