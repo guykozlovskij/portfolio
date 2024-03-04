@@ -207,6 +207,7 @@ html {
   display: flex;
   flex-direction: column;
   text-align: justify;
+  hyphens: auto;
   text-justify: inter-word;
   p {
     font-size: 18px;
@@ -303,6 +304,7 @@ html {
     display: flex;
     flex-direction: row;
     text-align: justify;
+    hyphens: auto;
     text-justify: inter-word;
   }
   .about-project {
@@ -408,7 +410,7 @@ html {
       }
       p {
         font-size: 18px;
-
+        hyphens: auto;
         line-height: $lineheight;
         text-align: justify;
         max-width: 500px;

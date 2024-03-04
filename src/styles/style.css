@@ -186,6 +186,8 @@ html {
   display: flex;
   flex-direction: column;
   text-align: justify;
+  -webkit-hyphens: auto;
+          hyphens: auto;
   text-justify: inter-word;
 }
 .about-me h1 {
@@ -269,6 +271,8 @@ html {
   display: flex;
   flex-direction: row;
   text-align: justify;
+  -webkit-hyphens: auto;
+          hyphens: auto;
   text-justify: inter-word;
 }
 .projects .project-section h1 {
@@ -386,6 +390,8 @@ html {
 }
 .experience .experience-content .text p {
   font-size: 18px;
+  -webkit-hyphens: auto;
+          hyphens: auto;
   line-height: 24px;
   text-align: justify;
   max-width: 500px;
