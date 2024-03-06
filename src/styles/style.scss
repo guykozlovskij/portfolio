@@ -187,7 +187,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  span {
+  span, p {
     padding-top: 10px;
     font-size: 13px;
     letter-spacing: 1px;
@@ -248,9 +248,10 @@ html {
     margin: 5px;
     width: 70px;
     height: 70px;
-    span {
-      padding-top: 8px;
+    span, p {
       font-size: 10px;
+      text-align: center;
+      padding-top: 8px;
       letter-spacing: 1px;
     }
   }

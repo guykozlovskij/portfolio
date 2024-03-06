@@ -173,7 +173,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-.devicon-div span {
+.devicon-div span, .devicon-div p {
   padding-top: 10px;
   font-size: 13px;
   letter-spacing: 1px;
@@ -235,9 +235,10 @@ html {
     width: 70px;
     height: 70px;
   }
-  .devicon-div span {
-    padding-top: 8px;
+  .devicon-div span, .devicon-div p {
     font-size: 10px;
+    text-align: center;
+    padding-top: 8px;
     letter-spacing: 1px;
   }
 }
