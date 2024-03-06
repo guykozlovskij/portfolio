@@ -272,8 +272,6 @@ html {
   display: flex;
   flex-direction: row;
   text-align: justify;
-  -webkit-hyphens: auto;
-          hyphens: auto;
   text-justify: inter-word;
 }
 .projects .project-section h1 {
@@ -289,6 +287,8 @@ html {
   font-size: 18px;
   max-width: 500px;
   padding-bottom: 25px;
+  -webkit-hyphens: auto;
+          hyphens: auto;
 }
 .projects .about-project {
   display: flex;
