@@ -231,14 +231,30 @@ html {
     letter-spacing: 1px;
   }
 }
+.project-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+@media (max-width: 800px) {
+  .project-main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
 .projects {
   padding-top: 90px;
   padding-bottom: 90px;
-  color: #293339;
+  color: #392929;
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: center;
   background-color: white;
 }
@@ -249,7 +265,7 @@ html {
   }
 }
 .projects .project-img {
-  max-width: 900px;
+  max-width: 500px;
 }
 .projects .projects-title h1 {
   letter-spacing: 1px;
@@ -265,7 +281,7 @@ html {
   justify-content: center;
   flex-wrap: wrap;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -309,6 +325,7 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding-bottom: 25px;
 }
 .project-links .button {
   margin-left: 20px;
