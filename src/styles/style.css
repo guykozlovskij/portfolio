@@ -104,6 +104,7 @@ html {
   }
 }
 .scroll-img-1 {
+  padding-top: 40px;
   background-image: linear-gradient(to bottom, #1e262b, #2a3941, #354d59, #416271, #4c788a);
   background-position: center;
   background-attachment: fixed;
@@ -248,7 +249,6 @@ html {
 
 .projects {
   padding-top: 90px;
-  padding-bottom: 90px;
   color: #392929;
   height: -moz-fit-content;
   height: fit-content;
@@ -261,7 +261,7 @@ html {
 @media (max-width: 800px) {
   .projects {
     padding-top: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
 }
 .projects .project-img {
@@ -330,6 +330,7 @@ html {
 .project-links .button {
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 .project-links i {
   padding-right: 10px;
@@ -529,4 +530,8 @@ html {
   .contact p {
     font-size: 50px;
   }
+}
+
+#last-project {
+  padding-bottom: 100px;
 }/*# sourceMappingURL=style.css.map */
